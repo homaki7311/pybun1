@@ -1,6 +1,4 @@
-array = [1,2,3,4,5]
-print (array)
-array[2] = 10
-print (array)
+import numpy as np
+a = np.array = ([1,2,3,4,5])
+b = np.array = ([2,3,4,5,6])
 
-print(array[1:])
