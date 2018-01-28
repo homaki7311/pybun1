@@ -4,5 +4,8 @@ def kumi(a,b):
    kahen = math.factorial(b)
    return int(jyohen/kahen)
 
-n=kumi(5,3)
+sousu = input("sousu = ")
+sensu = input("erabukazu = ")
+
+n=kumi(int(sousu),int(sensu))
 print(n)
