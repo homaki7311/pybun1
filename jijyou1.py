@@ -1,8 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-n = 5
-x = np.array([1,2,3,4,5])
-y = np.array([6,7,7,9,10])
+n = 7
+x = np.arange(1,n+1,1)
+print (x)
+y = np.array([0,0.5,1.5,3,6,9,15])
 xy = np.dot(x,y)
 xx = np.dot(x,x)
 sumy = np.sum(y)
