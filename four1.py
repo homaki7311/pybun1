@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 from scipy.integrate import quad
 
 def f(x):
-    return x*x*x-0.8*x*x
+    return x*x*x
 
 pi = np.pi
-T = 2*pi
+T = 4*pi
 jisuu = 15
-omega = T / (2*pi)
+omega = 2*pi/T
 a = []
 b = []
 for num in range(0,jisuu):
