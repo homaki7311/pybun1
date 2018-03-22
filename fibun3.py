@@ -33,4 +33,4 @@ for k,v in result[0].items():
     kensukyocera = result2[0][k]/result2[1]*100
     kensuepson = result3[0][k]/result3[1]*100
     kensumurata = result4[0][k]/result4[1]*100
-    print (k,',',kensuNDK,',',kensukyocera,',',kensuepson,',',kensumurata)
+    print (k,',','{:.2f}'.format(kensuNDK),',','{:.2f}'.format(kensukyocera),',','{:.2f}'.format(kensuepson),',','{:.2f}'.format(kensumurata))
