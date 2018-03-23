@@ -28,8 +28,11 @@ file4 = 'bibliomurata.csv'
 
 result4 = FIread(file4)
 
-for k,v in result[0].items():
-    kensuNDK = v/result[1]*100
+re_total = result[0] + result2[0] + result3[0] + result4[0]
+
+for k,v in sorted(re_total.items()):
+#for k,v in re_total.items():
+    kensuNDK = result[0][k]/result[1]*100
     kensukyocera = result2[0][k]/result2[1]*100
     kensuepson = result3[0][k]/result3[1]*100
     kensumurata = result4[0][k]/result4[1]*100
